@@ -1,0 +1,30 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaronCruzH/FizzBuzz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AaronCruzH/FizzBuzz/issues"
+  },
+  "homepage": "https://github.com/AaronCruzH/FizzBuzz#readme",
+  "description": ""
+}
