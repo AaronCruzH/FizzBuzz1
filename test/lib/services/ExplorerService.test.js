@@ -11,8 +11,8 @@ describe("Test Unit para ExplorerService",()=>{
         const explorersAmount=ExplorerService.getAmountOfExplorersByMission(explorers, "node");
         const explorersNames=ExplorerService.getExplorersUsernamesByMission(explorers, "node");
 
-        expect(explorersMission).toBeUndefined()
+        expect(explorersMission).not.toBeUndefined()
         expect(explorersAmount).toBe(10)
-        expect(explorersNames).toBeUndefined()
+        expect(explorersNames).not.toBeUndefined()
     })
 })
